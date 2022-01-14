@@ -32,6 +32,6 @@ steps:
   - gcloud container clusters get-credentials --zone=$_ZONE $_CLUSTER; skaffold run -f=skaffold.yaml --default-repo=gcr.io/$PROJECT_ID;
 
 # Add more power, and more time, for heavy Skaffold build
-timeout: '3600s'
-options:
-  machineType: 'N1_HIGHCPU_8'
+#timeout: '3600s'
+#options:
+#machineType: 'N1_HIGHCPU_8'
