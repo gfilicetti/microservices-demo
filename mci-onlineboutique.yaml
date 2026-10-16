@@ -1,0 +1,11 @@
+apiVersion: networking.gke.io/v1
+kind: MultiClusterIngress
+metadata:
+  name: onlineboutique-ingress
+  namespace: onlineboutique
+spec:
+  template:
+    spec:
+      backend:
+        serviceName: onlineboutique-mcs
+        servicePort: 8080

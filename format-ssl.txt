@@ -1,0 +1,1 @@
+Testing Website Response Time for: %{url_effective}\n\nDNS Lookup:\t\t%{time_namelookup}\nConnect Time:\t\t%{time_connect}\nSSL Handshake:\t\t%{time_appconnect}\nPre-transfer Time:\t%{time_pretransfer}\nStart-transfer Time:\t%{time_starttransfer}\n\nTotal Time:\t\t%{time_total}\n

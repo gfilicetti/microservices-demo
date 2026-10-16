@@ -1,3 +1,4 @@
+.temp*
 bin/
 pkg/
 .DS_Store

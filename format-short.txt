@@ -1,0 +1,2 @@
+Testing Website Response Time for: %{url_effective}\n\nTotal Time:\t\t%{time_total}\n
+
